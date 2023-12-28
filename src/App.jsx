@@ -11,6 +11,7 @@ function App() {
       <h1 className="title">
         Cryptocurrency Finder Web App with React JS and Axios
       </h1>
+      <input type="text" className="text" />
     </div>
   );
 }
