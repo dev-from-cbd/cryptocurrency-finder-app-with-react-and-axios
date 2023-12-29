@@ -11,7 +11,10 @@ function App() {
       <h1 className="title">
         Cryptocurrency Finder Web App with React JS and Axios
       </h1>
-      <input type="text" className="text" />
+      <input
+        type="text"
+        placeholder="Please write needed name of Crypto or Token"
+      />
     </div>
   );
 }
