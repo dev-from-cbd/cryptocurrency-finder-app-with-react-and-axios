@@ -13,8 +13,12 @@ function App() {
       </h1>
       <input
         type="text"
-        placeholder="Please write needed name of Crypto or Token"
+        placeholder="Enter a name of Crypto"
+        onChange={(e) => {
+          setSearch(e.target.value);
+        }}
       />
+      <table>table</table>
     </div>
   );
 }
