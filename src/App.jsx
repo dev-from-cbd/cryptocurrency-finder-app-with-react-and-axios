@@ -18,7 +18,14 @@ function App() {
           setSearch(e.target.value);
         }}
       />
-      <table>table</table>
+      <table>
+        <thead>
+          <tr>
+            <td>td 1</td>
+            <td>td 2</td>
+          </tr>
+        </thead>
+      </table>
     </div>
   );
 }
