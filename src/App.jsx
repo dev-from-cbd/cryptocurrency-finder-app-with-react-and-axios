@@ -21,8 +21,12 @@ function App() {
       <table>
         <thead>
           <tr>
-            <td>td 1</td>
-            <td>td 2</td>
+            <td>Rank</td>
+            <td>Name</td>
+            <td>Symbol</td>
+            <td>Market Cap</td>
+            <td>Price</td>
+            <td>Available Supply</td>
           </tr>
         </thead>
       </table>
